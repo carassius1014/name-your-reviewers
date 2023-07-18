@@ -1,3 +1,9 @@
 import * as core from '@actions/core';
 
-core.info('Hello from nominator');
+async function run(): Promise<void> {
+    core.info('Hello from nominator');
+}
+
+module.exports = {
+    run,
+};

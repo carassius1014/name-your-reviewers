@@ -1,0 +1,12 @@
+name: Nominator
+
+on:
+  push:
+    branches:
+      - "*"
+
+jobs:
+  try_nominator:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: carassius1014/nominator
