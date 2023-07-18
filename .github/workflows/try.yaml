@@ -9,4 +9,4 @@ jobs:
   try_nominator:
     runs-on: ubuntu-latest
     steps:
-      - uses: carassius1014/nominator
+      - uses: carassius1014/nominator@f3577ef46bd81c37c15377b8792a1061b1827178
