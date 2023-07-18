@@ -1,0 +1,14 @@
+name: 'Nominator'
+description: 'Name reviewers following customized rules'
+branding:
+  icon: 'at-sign'
+  color: 'green'
+inputs:
+  token:
+    required: true
+  config:
+    required: false
+    default: '.github/nominator.yml'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
